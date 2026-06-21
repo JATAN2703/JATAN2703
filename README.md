@@ -69,3 +69,5 @@
 ---
 
 <p align="center"><i>Thanks for stopping by! ⭐️ Feel free to check out my repositories.</i></p>
+
+<!-- profile -->
