@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Software & AI/ML Engineer</b> · MS in Computer Science @ Northeastern University<br>
-  I build scalable systems <i>and</i> train models from the ground up — bridging robust software architecture with modern AI.
+  I build scalable systems <i>and</i> train models from the ground up, bridging robust software architecture with modern AI.
 </p>
 
 <p align="center">
@@ -21,19 +21,20 @@
 
 ### 🚀 About Me
 
-- 🎓 MS in Computer Science @ **Northeastern University** (Boston, MA) — prev. BE in AI & Data Science, University of Mumbai
-- 💼 Ex **SWE/AI Intern @ National Stock Exchange (NSE)** — built a GenAI helpdesk & real-time RAG pipeline
+- 🎓 MS in Computer Science @ **Northeastern University** (Boston, MA). Prev. BE in AI & Data Science, University of Mumbai
+- 💼 Ex **SWE/AI Intern @ National Stock Exchange (NSE)**, where I built a GenAI helpdesk and an enterprise RAG pipeline over thousands of exchange circulars, cutting support turnaround by 40%
 - 🤖 I work across the stack and the ML lifecycle: from **44M-parameter Transformers built from scratch** in PyTorch to **low-latency RAG systems** in production
-- 🧱 I care about architectural integrity — SOLID principles, clean refactors, and high test coverage
-- 🔎 **Actively seeking Software Engineering / Machine Learning internships for Summer 2026**
+- 🧱 I care about architectural integrity: SOLID principles, clean refactors, and high test coverage
+- 🔬 Currently building an **evaluation harness for MCP-based tool-calling agents** that measures verified task completion and model calibration under adversarial conditions
+- 🔎 Open to **Spring 2027 co-op and 2027 new grad roles** in Software Engineering and Machine Learning
 - 📫 Reach me at **jatan.patel2703@gmail.com**
 
 ---
 
 ### 🏆 Recent Highlight
 
-🥇 **1st Place — Google DeepMind × Cactus Compute Hackathon @ MIT** (Feb 2026)
-Led a team of 5 to ship a **local-first on-device AI agent** in 24 hours — a two-stage router using **FunctionGemma** on-device and **Gemini** in the cloud, balancing latency, cost, and privacy.
+🥇 **1st Place, Google DeepMind × Cactus Compute Hackathon @ MIT** (Feb 2026)
+Led a team of 5 to ship a **local-first on-device AI agent** in 24 hours: a two-stage router using **FunctionGemma** on-device and **Gemini** in the cloud, balancing latency, cost, and privacy.
 
 ---
 
@@ -41,9 +42,11 @@ Led a team of 5 to ship a **local-first on-device AI agent** in 24 hours — a t
 
 | Project | Description | Tech |
 | :--- | :--- | :--- |
-| [**Diffusion vs. Autoregressive for NMT**](https://github.com/JATAN2703/Diffusion-vs-Transformers-NMT) | Benchmarked 44M-param autoregressive vs. masked diffusion transformers for En→Fr translation (BLEU 30.42 vs. 13.77) | PyTorch, Transformers |
-| [**Enterprise Scheduling & Analytics System**](https://github.com/JATAN2703/Enterprise-Scheduling-Analytics-System) | Extensible MVC app using Command/Builder/Strategy patterns; 100% mutation coverage | Java, Design Patterns |
-| [**High-Stakes Medical RAG**](https://github.com/JATAN2703/High-Stakes-Medical-RAG-with-Automated-Hallucination-Gating) | RAG pipeline with automated hallucination gating | Python, RAG |
+| [**LLM Inference Engine**](https://github.com/JATAN2703/llm-inference-engine) | Self-hosted inference engine built from scratch: a continuous-batching scheduler and KV caching for ~6x throughput over the naive baseline, deployed to Kubernetes on GCP with autoscaling, plus an FP16/INT8/INT4 quantization study | PyTorch, Docker, Kubernetes, GCP |
+| [**Agent Evaluation Harness**](https://github.com/JATAN2703/agent-eval-harness) *(in progress)* | Evaluation harness for MCP tool-calling agents measuring verified task completion vs database ground truth across an 8-category failure taxonomy, under clean, faulted, and adversarial conditions | Python, MCP, SQLite, pytest |
+| [**High-Stakes Medical RAG**](https://github.com/JATAN2703/High-Stakes-Medical-RAG-with-Automated-Hallucination-Gating) | Pharmacology RAG with hybrid BM25 and dense retrieval, plus an adversarial benchmark of four hallucination detectors; found reliability is dominated by calibration, not recall | Python, RAG, ChromaDB |
+| [**Diffusion vs. Autoregressive for NMT**](https://github.com/JATAN2703/Diffusion-vs-Transformers-NMT) | Benchmarked 44M-param autoregressive vs. masked diffusion transformers for En to Fr translation (BLEU 30.42 vs. 13.77) | PyTorch, Transformers |
+| [**Enterprise Scheduling & Analytics System**](https://github.com/JATAN2703/Enterprise-Scheduling-Analytics-System) | Extensible MVC app using Command/Builder/Strategy patterns; 94% mutation coverage via Pitest | Java, Design Patterns |
 | [**Transformer From Scratch**](https://github.com/JATAN2703/Transformer-From-Scratch) | Transformer architecture implemented from the ground up | Python, PyTorch |
 
 ---
@@ -65,24 +68,29 @@ Led a team of 5 to ship a **local-first on-device AI agent** in 24 hours — a t
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 **Web & Backend**
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
-**Data & Cloud**
+**Data, Cloud & Infra**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge&logoColor=white)
 ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
