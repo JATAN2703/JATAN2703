@@ -25,7 +25,7 @@
 - 💼 Ex **SWE/AI Intern @ National Stock Exchange (NSE)**, where I built a GenAI helpdesk and an enterprise RAG pipeline over thousands of exchange circulars, cutting support turnaround by 40%
 - 🤖 I work across the stack and the ML lifecycle: from **44M-parameter Transformers built from scratch** in PyTorch to **low-latency RAG systems** in production
 - 🧱 I care about architectural integrity: SOLID principles, clean refactors, and high test coverage
-- 🔬 Currently building an **evaluation harness for MCP-based tool-calling agents** that measures verified task completion and model calibration under adversarial conditions
+- 🔬 Built an **evaluation harness for MCP tool-calling agents** that measures verified completion and model calibration under 6 fault-injection profiles; found agents fail silently and confidently under corrupt tool data
 - 🔎 Open to **Spring 2027 co-op and 2027 new grad roles** in Software Engineering and Machine Learning
 - 📫 Reach me at **jatan.patel2703@gmail.com**
 
@@ -43,7 +43,7 @@ Led a team of 5 to ship a **local-first on-device AI agent** in 24 hours: a two-
 | Project | Description | Tech |
 | :--- | :--- | :--- |
 | [**LLM Inference Engine**](https://github.com/JATAN2703/llm-inference-engine) | Self-hosted inference engine built from scratch: a continuous-batching scheduler and KV caching for ~6x throughput over the naive baseline, deployed to Kubernetes on GCP with autoscaling, plus an FP16/INT8/INT4 quantization study | PyTorch, Docker, Kubernetes, GCP |
-| [**Agent Evaluation Harness**](https://github.com/JATAN2703/agent-eval-harness) *(in progress)* | Evaluation harness for MCP tool-calling agents measuring verified task completion vs database ground truth across an 8-category failure taxonomy, under clean, faulted, and adversarial conditions | Python, MCP, SQLite, pytest |
+| [**Agent Evaluation Harness**](https://github.com/JATAN2703/agent-eval-harness) | Evaluation harness for MCP tool-calling agents that verifies completion vs database ground truth and classifies failures across an 8-category taxonomy under 6 fault profiles; found agents fail silently and confidently under corrupt tool data | Python, MCP, SQLite, LangGraph, pytest |
 | [**High-Stakes Medical RAG**](https://github.com/JATAN2703/High-Stakes-Medical-RAG-with-Automated-Hallucination-Gating) | Pharmacology RAG with hybrid BM25 and dense retrieval, plus an adversarial benchmark of four hallucination detectors; found reliability is dominated by calibration, not recall | Python, RAG, ChromaDB |
 | [**Diffusion vs. Autoregressive for NMT**](https://github.com/JATAN2703/Diffusion-vs-Transformers-NMT) | Benchmarked 44M-param autoregressive vs. masked diffusion transformers for En to Fr translation (BLEU 30.42 vs. 13.77) | PyTorch, Transformers |
 | [**Enterprise Scheduling & Analytics System**](https://github.com/JATAN2703/Enterprise-Scheduling-Analytics-System) | Extensible MVC app using Command/Builder/Strategy patterns; 94% mutation coverage via Pitest | Java, Design Patterns |
