@@ -95,17 +95,4 @@ Led a team of 5 to ship a **local-first on-device AI agent** in 24 hours: a two-
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JATAN2703&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JATAN2703&layout=compact&theme=tokyonight"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=JATAN2703&theme=tokyonight" alt="GitHub Streak"/>
-</p>
-
----
-
 <p align="center"><i>Thanks for stopping by! ⭐️ Feel free to explore my repositories.</i></p>
