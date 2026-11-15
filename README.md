@@ -1,6 +1,10 @@
 <h1 align="center">Jatan Patel</h1>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=1400&color=8B949E&center=true&vCenter=true&width=620&lines=Applied+AI+Engineering+Intern+%40+TRACE;Building+agents%2C+eval+harnesses+and+inference+engines;Seeking+Summer+2027+internships" alt="Applied AI Engineering Intern at TRACE. Building agents, eval harnesses and inference engines. Seeking Summer 2027 internships."/>
+</p>
+
+<p align="center">
   Applied AI and software engineer · MS Computer Science, Northeastern University<br/>
   I build AI systems that hold up in production, and I measure them before I trust them.
 </p>
