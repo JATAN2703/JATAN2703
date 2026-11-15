@@ -40,4 +40,4 @@
 - **Languages:** Python · TypeScript · Java · SQL
 - **AI / ML:** PyTorch · vLLM · Hugging Face Transformers · LangChain · LangGraph · MCP · RAG
 - **Backend & web:** FastAPI · NestJS · Node.js · Next.js · React
-- **Data & infra:** PostgreSQL · Docker · Kubernetes · Google Cloud · GitHub Actions
+- **Data & infra:** PostgreSQL · Docker · Kubernetes · Google Cloud · AWS · GitHub Actions
