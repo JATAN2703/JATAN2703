@@ -45,3 +45,11 @@
 - **AI / ML:** PyTorch · vLLM · Hugging Face Transformers · LangChain · LangGraph · MCP · RAG
 - **Backend & web:** FastAPI · NestJS · Node.js · Next.js · React
 - **Data & infra:** PostgreSQL · Docker · Kubernetes · Google Cloud · AWS · GitHub Actions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JATAN2703/JATAN2703/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JATAN2703/JATAN2703/output/github-snake.svg" />
+    <img alt="A snake eating Jatan's GitHub contribution graph" src="https://raw.githubusercontent.com/JATAN2703/JATAN2703/output/github-snake.svg" />
+  </picture>
+</p>
